@@ -10,7 +10,7 @@ public class StudentController
 				model.setName(ev.getName());
 				model.setId(ev.getID());
 				//Change the data
-				String str = model.getName() + "Says Hello";
+				String str = model.getName() + " Says Hello";
 				window.setNameField(str);
 				window.setIDField(ev.getID());
 			}
